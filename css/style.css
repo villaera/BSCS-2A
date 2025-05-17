@@ -10,14 +10,13 @@
   scroll-behavior: smooth;
 }
 :root{
-    --bg-color: #000000;
+    --first-color: #000000;
     --second-bg-color: #c2c2c2;
     --text-color: #fff;
     --main-color: #2bd6bc;
 }
 html{
     font-size: 80%;
-    overflow-x: hidden;
 }
 body{
     background: var(--bg-color);

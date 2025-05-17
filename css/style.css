@@ -65,6 +65,7 @@ section{
 }
 .home-image image{
     width: 30vw;
+    
 }
 .home-content h3{
     font-size: 3.2rem;
@@ -127,6 +128,8 @@ span{
 }
 .about-image image{
     width: 30vw;
+        border-radius: 180px;
+
 }
 .heading{
     text-align: center;

@@ -65,6 +65,8 @@ section{
 }
 .home-image image{
     width: 30vw;
+            border-radius: 180px;
+
     
 }
 .home-content h3{

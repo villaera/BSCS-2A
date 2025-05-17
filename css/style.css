@@ -10,9 +10,9 @@
   scroll-behavior: smooth;
 }
 :root{
-    --first-color: #000000;
+    --bg-color: #000000;
     --second-bg-color: #c2c2c2;
-    --text-color: #fff;
+    --text-color: #080606;
     --main-color: #2bd6bc;
 }
 html{
@@ -65,9 +65,7 @@ section{
 }
 .home-image image{
     width: 30vw;
-            border-radius: 180px;
-
-    
+    border-radius: 180px;
 }
 .home-content h3{
     font-size: 3.2rem;
@@ -130,8 +128,6 @@ span{
 }
 .about-image image{
     width: 30vw;
-        border-radius: 180px;
-
 }
 .heading{
     text-align: center;

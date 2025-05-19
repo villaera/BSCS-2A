@@ -31,7 +31,7 @@ body{
 .logo{
     position: relative;
     font-size: 25px;
-    color: rgb(0, 199, 199);
+    color: rgb(255, 3, 3);
     text-decoration: none;
     font-weight: 600;
 }
@@ -82,8 +82,8 @@ margin: -3px 0;
 
 .img-box img{
     width: 350px;
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 25px cyan;
+    box-shadow: 0 0 5px rgb(200, 255, 0),
+    0 0 25px cyan, 0 0 25px rgb(27, 230, 230);
     border-radius: 180px;
 }
 

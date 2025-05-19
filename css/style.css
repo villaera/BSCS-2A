@@ -67,17 +67,13 @@ body{
 .home-content h1 {
     font-size: 32px;
     font-weight: 700;
-    color: cyan;
+    color: rgb(3, 3, 3);
 }
 
 .home-content h1 h2 {
 font-size: 50px;
 font-weight: 700;
 margin: -3px 0;
-}
-
-h2 span{ 
-    color:rgb(26, 31, 31);
 }
 
 .home-content p{

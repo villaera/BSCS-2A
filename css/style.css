@@ -137,7 +137,7 @@ h2 span{
 .about-image image{
    width: 450px;
     box-shadow: 0 0 20px cyan,
-    0 0 155px cyan, 0 0 155px rgb(87, 145, 145);
+    0 0 155px cyan, 0 0 155px rgb(255, 255, 255);
     border-radius: 180px;
 }
 

@@ -31,7 +31,7 @@ body{
 .logo{
     position: relative;
     font-size: 25px;
-    color: cyan;
+    color: rgb(0, 199, 199);
     text-decoration: none;
     font-weight: 600;
 }
@@ -67,7 +67,7 @@ body{
 .home-content h1 {
     font-size: 32px;
     font-weight: 700;
-    color: rgb(3, 3, 3);
+    color: rgb(255, 0, 0);
 }
 
 .home-content h1 h2 {

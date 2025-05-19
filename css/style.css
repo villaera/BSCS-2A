@@ -65,7 +65,7 @@ body{
 }
 
 .home-content h1 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     color: rgb(255, 0, 0);
 }
@@ -83,4 +83,15 @@ margin: -3px 0;
 .about-content h4{
     font-size: 70px;
 
+}
+
+h3 {
+    display: block;
+    font-size: 70px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }

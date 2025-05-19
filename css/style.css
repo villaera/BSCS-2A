@@ -80,24 +80,11 @@ margin: -3px 0;
   font-size: 20px;  
 }
 
-.img-box img{
-    width: 350px;
-    box-shadow: 0 0 5px rgb(200, 255, 0),
-    0 0 25px cyan, 0 0 25px rgb(27, 230, 230);
-    border-radius: 180px;
-}
-
-.btn{
- margin-top: 1.5rem;
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
 
 .btn a {
-   color: cyan;
+   color: rgb(236, 253, 0);
   font-size: 1.5rem;
-  border: 2px solid cyan;
+  border: 2px solid rgb(217, 255, 0);
   border-radius: 50%;
   width: 40px;
   height: 40px;

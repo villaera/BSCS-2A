@@ -5,72 +5,75 @@
     padding: 0;    
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+    text-decoration: none;
 }
 
 body{
-    color:white;
-    background-color: rgb(10, 9, 9);
-    margin: 0;
-    padding: 0;
+overflow-x: hidden;
 
 }
 
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
+.hero-header{
+
     width: 100%;
-    padding: 20px 10%;
+    height: 100%;
+    min-height: 100vh;
     background: transparent;
+
+}
+
+.wrapper{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+header{
+    padding: 40px 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
-}
-
-.logo{
-    position: relative;
-    font-size: 30px;
-    color: rgb(255, 3, 3);
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.navbar a{
-    display: inline-block;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    margin-left: 35px;
-    font-weight: 500;
+    flex-wrap: wrap;
     
 }
 
-.home{
-    position: relative;
-    width: 100%;
-    justify-content: space-between;
-    height: 100%;
-    background: transparent;
-    display: flex;
+.logo{
+    justify-content: center;
+    display: inline-flex;
     align-items: center;
-    padding: 180px 10% 0;
+
 }
 
-.home-content{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 600px;
-}
-
-.home-content h1 {
-    font-size: 30px;
+.logo i{
+    height: 45px;
+    width: 45px;
+    background-color: aqua;
+    border-radius: 50%;
+    color: #fff;
     font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-right: 5pt;
+    cursor: pointer; 
+    text-align: center;
+
+}
+
+.logo .logo-text{
+    font-size: 24px;
+    font-weight: 500;
     color: rgb(255, 0, 0);
 }
 
-.home-content h1 h2 {
+nav .togglebtn {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 45px;
+    
+
 font-size: 30px;
 font-weight: 700;
 margin: -3px 0;

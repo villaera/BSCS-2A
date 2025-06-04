@@ -1,46 +1,57 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSCS-2A_VILLAERA</title>
+    <link rel="stylesheet" href="css/style.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>BSCS-2A_VILLAERA</title> 
-    <link rel="stylesheet" href="css/style.css"> 
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> 
+    </head>
+<body>
+     <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Portfolio</a>
+                </div>
 
-</head> 
-<body> 
-    <header class="header">  
-        <a href="#" class="logo"> 
-            <span>Portfolio</spans> 
+        <div class="togglebtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
 
-        <nav class="navbar"> 
-            <a href= "#home">Home</a> 
-            <a href= "#About">About</a> 
-            <a href= "#Skills">Portfolio</a> 
-            <a href= "#Contact">Contact</a> 
-
-        </nav> 
-    </header> 
-
-
-        <section class="home" id="home"> 
-        <div class="home-content"> 
-            <h3>Hi there! 👋 I'm</h3> 
-            <h1>Jocel M. Villaera</h1> 
-            <h3><span>Junior Programmer</span></h3> 
-            <p>with a passion for turning ideas into code. Whether it's building responsive websites, exploring new technologies, or solving real-world problems through programming, I'm always eager to learn and grow.</p> 
-
-
-        </div> 
-
-            <div class="btn-group">
-                <a href="#" class="btn active">Download CV</a>
-                <a href="#" class="btn">Contact</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+                    <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+    </header>
+     <main class="l-main">
+                <div class="home-img"> 
+            <img src="image/download.png" alt=""> 
+        </div>
+                
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi there! 👋<br>I'am <span class="home__title-color">Jocel M. Villaera
+                    </span><br>Junior Programmer</h1>
+                    <p>with a passion for turning ideas into code. Whether it's building responsive websites, exploring new technologies, or solving real-world problems through programming, I'm always eager to learn and grow.</p>
                     
-            </div>
+                    <div class="btn-group">
+                       <a href="#" class="btn active">Download CV</a>
+                       <a href="#" class="btn">Contact</a>
+                    </div>
 
-                 <div class="social">
+                    <div class="social">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -48,12 +59,9 @@
                         <a href="#"><i class="fa-brands fa-pintrest"></i></a>
                     </div>
 
-        <div class="home-img"> 
-            <img src="image/download.png" alt=""> 
-        </div> 
-    </section> 
+            </section>
 
-            <section class="about section " id="about">
+        <section class="about section " id="about">
                 <h2 class="section-title">About</h2>
 
                 <div class="about__container bd-grid">
@@ -67,13 +75,97 @@
                     </div>                                   
                 </div>
             </section>
-    
- 
 
-    <script src="js/main.js"></script> 
+                <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
 
-</body> 
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">My Skills</h2>
+                        <p class="skills__text">with a passion for turning ideas into code. Whether it's building responsive websites, exploring new technologies, or solving real-world problems through programming, I'm always eager to learn and grow.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
 
-</html> 
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="image/code.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
 
- 
+
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Send" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+                <footer class="footer">
+            <p class="footer__title">VILLAERA</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Thankyou!!</p>
+        </footer>
+
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

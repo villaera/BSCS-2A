@@ -47,7 +47,7 @@ img {
 .section-title {
   position: relative;
   font-size: 1.25rem;
-  color: hsl(224, 89%, 60%);
+  color: hsl(0, 88%, 55%);
   margin-top: 1rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -61,7 +61,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: hsl(224, 89%, 60%);
+  background-color: hsl(0, 97%, 56%);
 }
 
 .section {
@@ -81,8 +81,8 @@ img {
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: #ee0a0a;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  background-color: #cf5656;
+  box-shadow: 0 1px 4px rgba(233, 11, 11, 0.15);
 }
 .nav {
   height: 3rem;
@@ -99,7 +99,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: hsl(224, 56%, 12%);
+    background-color: hsl(0, 88%, 55%);
     transition: 0.5s;
   }
 }
@@ -120,7 +120,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: hsl(224, 89%, 60%);
+  background-color: hsl(0, 87%, 48%);
 }
 .nav__logo {
     color:#fff;
@@ -138,7 +138,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: hsl(224, 89%, 60%);
+  background-color: hsl(0, 89%, 60%);
 }
 .show {
   right: 0;
@@ -180,7 +180,7 @@ img {
     transition: 0.5s;
 }
 .hero-text .social i:hover{
-    color:#007ced;
+    color:#ed0000;
     transform: rotate(360deg);
 }
 .home__img {
@@ -191,7 +191,7 @@ img {
 }
 .button {
   display: inline-block;
-  background-color: hsl(224, 89%, 60%);
+  background-color: hsl(0, 89%, 60%);
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: 600;

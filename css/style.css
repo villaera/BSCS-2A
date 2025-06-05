@@ -81,7 +81,7 @@ img {
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: #474646;
+  background-color: #ee0a0a;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 .nav {
@@ -123,10 +123,11 @@ img {
   background-color: hsl(224, 89%, 60%);
 }
 .nav__logo {
-  color: skyblue;
+    color:#fff;
 }
 .nav__toggle {
-  color:  hsl(224, 56%, 12%);
+  color:#fff;
+;
   font-size: 1.5rem;
   cursor: pointer;
 }

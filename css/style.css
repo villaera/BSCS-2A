@@ -39,7 +39,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 500%;
   height: auto;
   display: block;
 }
@@ -186,23 +186,47 @@ img {
   font-weight: 600;
   border-radius: 0.5rem;
   transition: 0.3s;
+
 }
 .button:hover {
   box-shadow: 0 1px 4px hsl(0, 88%, 55%);
 }
+.about__container h2{
+  row-gap: rem;
+  text-align: center;
+  line-height:1.2;
+  color: hsl(0, 89%, 60%);
+
+}
+
 .about__container {
-  row-gap: 2rem;
+  row-gap: rem;
   text-align: center;
 }
 .about__subtitle {
   margin-bottom: 1rem;
 }
+
 .about__img {
-  justify-self: center;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  gap: 2rem;
 }
 .about__img img {
-  width: 200px;
-  border-radius: 0.5rem;
+  width: 25vw;
+  boder: 2px solid #f10606;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px hsl(0, 88%, 55%);
+  cursor: pointer;
+  transition: 0.4s ease;
+  
+}
+
+.about__img img img:hover{
+  box-shadow:  0 125px 4px hsl(0, 88%, 55%),
+               0 1px 35px hsl(0, 88%, 55%),
+               0 1px 45px hsl(0, 88%, 55%);
 }
 .skills__container {
   row-gap: 2rem;

@@ -138,7 +138,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: hsl(0, 89%, 60%);
+  background-color: hsl(0, 0%, 100%);
 }
 .show {
   right: 0;
@@ -152,7 +152,7 @@ img {
   align-self: center;
 }
 .home__title {
-  font-size: 30px;
+  font-size: 50px;
   margin-bottom: 2.5rem;
 }
 .home__title-color {
@@ -191,7 +191,7 @@ img {
 }
 .button {
   display: inline-block;
-  background-color: hsla(0, 46%, 89%, 0.815);
+  background-color: hsl(0, 89%, 60%);
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: 600;

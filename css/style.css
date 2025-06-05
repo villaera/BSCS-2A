@@ -191,7 +191,7 @@ img {
 }
 .button {
   display: inline-block;
-  background-color: hsl(0, 89%, 60%);
+  background-color: hsla(0, 46%, 89%, 0.815);
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: 600;

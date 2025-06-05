@@ -127,8 +127,7 @@ img {
 }
 .nav__toggle {
   color:#fff;
-;
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   cursor: pointer;
 }
 .active-link::after {
@@ -152,7 +151,7 @@ img {
   align-self: center;
 }
 .home__title {
-  font-size: 50px;
+  font-size: 20px;
   margin-bottom: 2.5rem;
 }
 .home__title-color {

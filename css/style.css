@@ -297,14 +297,15 @@ img {
   transform: scale(1.1);
 }
 
-.service-container{
+
+.services-container{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
-.service-container .services-box{
+.services-container .services-box{
   flex: 1 1 30rem;
   background-color: hsl(0, 89%, 60%);
   padding: 6rem 2rem 6rem;

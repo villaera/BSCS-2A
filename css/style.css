@@ -385,8 +385,8 @@ img {
   margin-left: auto;
 }
 .footer {
-  background-color: hsl(224, 56%, 12%);
-  color: hsl(0, 88%, 55%);
+  background-color: hsla(0, 87%, 56%, 0.486);
+  color: hsl(0, 10%, 90%);
   text-align: center;
   font-weight: 600;
   padding: 2rem 0;

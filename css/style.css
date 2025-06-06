@@ -296,6 +296,35 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
+
+.service-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.service-container .services-box{
+  flex: 1 1 30rem;
+  background-color: hsl(0, 89%, 60%);
+  padding: 6rem 2rem 6rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.3rem solid hsl(0, 89%, 60%);
+  transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .contact__input {
   width: 100%;
   font-size: .938rem;

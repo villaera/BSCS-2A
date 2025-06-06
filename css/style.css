@@ -11,11 +11,6 @@
 
 *, ::before, ::after {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
 }
 
 html {
@@ -28,6 +23,7 @@ body {
   font-size: 20px;
   color: hsl(224, 56%, 12%);
 }
+
 h1, h2, p {
   margin: 0;
 }

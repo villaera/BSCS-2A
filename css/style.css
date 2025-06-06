@@ -314,21 +314,21 @@ img {
   border: 0.3rem solid hsl(0, 89%, 60%);
   transition: 0.3s ease;
 }
-.services-container .services-box:hover{
+.services-container .services-box:hover {
   border-color: hsl(0, 89%, 60%);
   transform:scale(1.02);
   
 }
- .services-box i{
+ .services-box i {
   font-size:7rem;
   color: hsl(0, 89%, 60%);
    
  }
- .services-box h3{
+ .services-box h3 { 
   font-size:2.6rem;
    
  }
- .services-box p{
+ .services-box p {
   font-size:1.6rem;
    margin:1rem;
  }

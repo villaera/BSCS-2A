@@ -108,7 +108,7 @@ img {
 }
 .nav__link {
   position: relative;
-  color: #fff;
+  color: #be0505;
 }
 .nav__link:hover {
   position: relative;
@@ -120,7 +120,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0deg 83.4% 34.44%);
 }
 .nav__logo {
     color:hsl(0, 0%, 100%);
@@ -189,21 +189,21 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  width: 26px;
 }
 .home__blob {
   fill: hsl(0, 97%, 56%);
 }
 .home__blob-img {
-  width: 360px;
+  width: 355=px;
 }
 .button {
   display: inline-block;
   background-color: hsl(0, 89%, 60%);
   color: hsl(0, 0%, 100%);
-  padding: 0.75rem 2.5rem;
-  font-weight: 600;
-  border-radius: 0.5rem;
+  padding: 0.7rem 2rem;
+  font-weight: 6;
+  border-radius: 0.rem;
   transition: 0.3s;
 
 }

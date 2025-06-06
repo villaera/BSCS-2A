@@ -301,16 +301,16 @@ img {
   z-index: -10;
 }
 .skills__html {
-  width: 95%;
+  width: 90%;
 }
 .skills__css {
-  width: 85%;
+  width: 70%;
 }
 .skills__js {
-  width: 65%;
+  width: 53%;
 }
 .skills__ux {
-  width: 85%;
+  width: 90%;
 }
 .skills__img {
   border-radius: 0.5rem;
